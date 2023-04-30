@@ -15,6 +15,5 @@ public class Class_C {
 		String url = System.getProperty("url");
 		driver.get(url);
 		driver.findElement(By.name("q")).sendKeys("rcb");
-		
 	}
 }
