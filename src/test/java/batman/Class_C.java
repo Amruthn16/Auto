@@ -14,6 +14,6 @@ public class Class_C {
 		WebDriver driver= new ChromeDriver();
 		String url = System.getProperty("url");
 		driver.get(url);
-		driver.findElement(By.name("q")).sendKeys("rcb");
+		driver.findElement(By.name("q")).sendKeys("java");
 	}
 }
